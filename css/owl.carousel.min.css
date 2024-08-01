@@ -1,0 +1,26 @@
+.category-carousel .item {
+    text-align: center;
+    padding: 10px;
+}
+
+.category-carousel .item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Isso garante que a imagem seja cortada corretamente dentro do contêiner */
+    border-radius: 50%;
+    border: 2px solid #000; /* Adiciona uma borda ao redor das imagens circulares */
+    display: block;
+    margin: 0 auto;
+}
+
+.category-carousel .item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+
+.owl-nav{
+    display: none !important;
+}
